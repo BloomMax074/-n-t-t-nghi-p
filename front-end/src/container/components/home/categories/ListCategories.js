@@ -6,8 +6,11 @@ import SpinLoad from '../../../javascript/SpinLoad';
 import renderHtml from 'react-render-html';
 
 function ListCategories() {
+    const dispatch = useDispatch();
+    
+
     return (
-        <></>
+        <div></div>
     );
 }
 
