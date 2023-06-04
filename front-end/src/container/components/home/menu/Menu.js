@@ -1,9 +1,9 @@
 import React from 'react';
-import { useRouterMatch } from 'react-router-dom';
+import { useRouteMatch } from 'react-router-dom';
 import NavBar from './NavBar';
 
 function Menu() {
-    const match = useRouterMatch();
+    const match = useRouteMatch();
     let checkMenu = match.isExact;
     return (
         <>
